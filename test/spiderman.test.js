@@ -1,6 +1,6 @@
-describe("Test Suite Dummy Description", () => {
-    test('Case 1 Dummy', () => {
-      const resultOfSomething = 1 + 2
-      expect(resultOfSomething).toBe(18);
+describe("Probando clase spyderman", () => {
+    test('Caso 1: crando un objeto', () => {
+      const Andrew = new Spyderman("spyderman sony",31,"Andrew Garfield","sony")
+        expect(andrew.name).toBe("spyderman sony")
     });
   })
